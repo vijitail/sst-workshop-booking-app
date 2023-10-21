@@ -9,8 +9,8 @@ export function AuthStack({ stack, app }: StackContext) {
           cognito.UserPoolClientIdentityProvider.GOOGLE,
         ],
         oAuth: {
-          callbackUrls: ["http://localhost:1234"],
-          logoutUrls: ["http://localhost:1234"],
+          callbackUrls: ["https://localhost:1234"],
+          logoutUrls: ["https://localhost:1234"],
         },
       },
     },
